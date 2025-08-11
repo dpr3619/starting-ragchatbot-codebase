@@ -138,3 +138,4 @@ Conversation context is maintained through:
 - always use uv to run the server
 - make sure to use uv to manage all dpendencies
 - use uv to run python files
+- don't run the server using ./run.sh I will start it myself

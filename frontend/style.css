@@ -716,3 +716,24 @@ details[open] .suggested-header::before {
         width: 280px;
     }
 }
+
+/* Source Link Styles */
+.source-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border-radius: 3px;
+    padding: 0.125rem 0.25rem;
+}
+
+.source-link:hover {
+    color: var(--primary-hover);
+    background-color: rgba(37, 99, 235, 0.1);
+    text-decoration: underline;
+}
+
+.source-link:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--focus-ring);
+}
